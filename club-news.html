@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club News - Stalybridge Celtic FC</title>
+    <link rel="stylesheet" href="club-news.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">SC</div>
+                <div>
+                    <h1><a href="index.html" style="color: white; text-decoration: none;">Stalybridge Celtic</a></h1>
+                    <p>Football Club</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#fixtures">Fixtures</a></li>
+                    <li><a href="index.html#results">Results</a></li>
+                    <li><a href="index.html#players">Squad</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Club <span class="arrow">▼</span></a>
+                        <div class="dropdown-menu">
+                            <a href="staff-directory.html">Staff Directory</a>
+                            <a href="#history">Club History</a>
+                            <a href="#honours">Honours</a>
+                            <a href="#facilities">Facilities</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle active">News <span class="arrow">▼</span></a>
+                        <div class="dropdown-menu">
+                            <a href="club-news.html">Club News</a>
+                            <a href="#match-reports">Match Reports</a>
+                            <a href="#team-news">Team News</a>
+                            <a href="#transfer-news">Transfer News</a>
+                            <a href="#youth-news">Youth News</a>
+                        </div>
+                    </li>
+                    <li><a href="index.html#tickets">Tickets</a></li>
+                    <li><a href="visiting-us.html">Visiting Us</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu">☰</button>
+        </div>
+        <div class="breadcrumb">
+            <div class="breadcrumb-container">
+                <a href="index.html">Home</a>
+                <span>></span>
+                <a href="#news">News</a>
+                <span>></span>
+                <span>Club News</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <h1>Club News</h1>
+        <p>Stay updated with the latest news from Stalybridge Celtic FC</p>
+    </section>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- News Categories Filter -->
+            <div class="news-filters">
+                <button class="filter-btn active" data-category="all">All News</button>
+                <button class="filter-btn" data-category="signings">Signings</button>
+                <button class="filter-btn" data-category="renewals">Contract Renewals</button>
+                <button class="filter-btn" data-category="general">General</button>
+                <button class="filter-btn" data-category="awards">Awards & Events</button>
+                <button class="filter-btn" data-category="community">Community</button>
+            </div>
+
+            <!-- Featured News -->
+            <div class="featured-news-section">
+                <h2 class="section-title">Featured News</h2>
+                <div class="featured-news-grid">
+                    <article class="featured-article" data-category="signings">
+                        <div class="article-image">
+                            <div class="image-placeholder">📝</div>
+                            <div class="article-category">Signings</div>
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="article-date">June 3, 2025</span>
+                                <span class="read-time">2 min read</span>
+                            </div>
+                            <h3 class="article-title">Celtic Secure Sean Tse for 2025-26</h3>
+                            <p class="article-excerpt">We're pleased to confirm Sean Tse has re-signed with Celtic for
+                                the 2025-26 season. The commanding centre half played 27 times for Celtic last season
+                                after arriving from Radcliffe 12 months ago.</p>
+                            <a href="#" class="read-more-btn">Read Full Story</a>
+                        </div>
+                    </article>
+
+                    <article class="featured-article" data-category="renewals">
+                        <div class="article-image">
+                            <div class="image-placeholder">✍️</div>
+                            <div class="article-category">Contract Renewals</div>
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="article-date">June 2, 2025</span>
+                                <span class="read-time">3 min read</span>
+                            </div>
+                            <h3 class="article-title">Max Leonard and Jack Irlam Re-sign</h3>
+                            <p class="article-excerpt">Stalybridge Celtic is pleased to confirm Max Leonard and Jack
+                                Irlam are the latest to re-sign with the Club for the 2025/26 season. The duo have made
+                                a combined 148 appearances for the Club.</p>
+                            <a href="#" class="read-more-btn">Read Full Story</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Latest News Grid -->
+            <div class="news-section">
+                <h2 class="section-title">Latest Club News</h2>
+                <div class="news-grid">
+                    <article class="news-card" data-category="renewals">
+                        <div class="card-header">
+                            <div class="news-image">
+                                <div class="image-placeholder">⚽</div>
+                            </div>
+                            <div class="news-category">Contract Renewals</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="news-meta">
+                                <span class="news-date">June 1, 2025</span>
+                                <span class="news-author">Celtic FC</span>
+                            </div>
+                            <h3 class="news-title">Jack Tinning Extends Stay</h3>
+                            <p class="news-excerpt">Stalybridge Celtic is pleased to confirm that Jack Tinning has
+                                extended his stay at the Club and will enter his third season at Bower Fold.</p>
+                            <div class="card-actions">
+                                <a href="#" class="read-more">Read More</a>
+                                <div class="article-stats">
+                                    <span class="views">👁️ 234</span>
+                                    <span class="shares">📤 12</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card" data-category="renewals">
+                        <div class="card-header">
+                            <div class="news-image">
+                                <div class="image-placeholder">🥅</div>
+                            </div>
+                            <div class="news-category">Contract Renewals</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="news-meta">
+                                <span class="news-date">May 30, 2025</span>
+                                <span class="news-author">Celtic FC</span>
+                            </div>
+                            <h3 class="news-title">Charlie Monks Extends Contract</h3>
+                            <p class="news-excerpt">Stalybridge Celtic can announce goalkeeper Charlie Monks has
+                                extended his stay with the Club for the 2025/26 season. The 22-year-old impressed in his
+                                debut season.</p>
+                            <div class="card-actions">
+                                <a href="#" class="read-more">Read More</a>
+                                <div class="article-stats">
+                                    <span class="views">👁️ 189</span>
+                                    <span class="shares">📤 8</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card" data-category="renewals">
+                        <div class="card-header">
+                            <div class="news-image">
+                                <div class="image-placeholder">⭐</div>
+                            </div>
+                            <div class="news-category">Contract Renewals</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="news-meta">
+                                <span class="news-date">May 29, 2025</span>
+                                <span class="news-author">Celtic FC</span>
+                            </div>
+                            <h3 class="news-title">Liam Tongue Contract Extension</h3>
+                            <p class="news-excerpt">Stalybridge Celtic is thrilled to announce Liam Tongue has extended
+                                his contract at Celtic for the 2025/26 season. Ever present last year, Celtic's club
+                                captain continues his journey.</p>
+                            <div class="card-actions">
+                                <a href="#" class="read-more">Read More</a>
+                                <div class="article-stats">
+                                    <span class="views">👁️ 312</span>
+                                    <span class="shares">📤 18</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card" data-category="general">
+                        <div class="card-header">
+                            <div class="news-image">
+                                <div class="image-placeholder">🎫</div>
+                            </div>
+                            <div class="news-category">General</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="news-meta">
+                                <span class="news-date">May 28, 2025</span>
+                                <span class="news-author">Celtic FC</span>
+                            </div>
+                            <h3 class="news-title">Season Tickets 2025/26 On Sale</h3>
+                            <p class="news-excerpt">We're delighted to announce that our season tickets for season
+                                2025/26 are now on sale with prices frozen despite rising costs across the industry.</p>
+                            <div class="card-actions">
+                                <a href="#" class="read-more">Read More</a>
+                                <div class="article-stats">
+                                    <span class="views">👁️ 456</span>
+                                    <span class="shares">📤 25</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card" data-category="awards">
+                        <div class="card-header">
+                            <div class="news-image">
+                                <div class="image-placeholder">🏆</div>
+                            </div>
+                            <div class="news-category">Awards & Events</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="news-meta">
+                                <span class="news-date">May 25, 2025</span>
+                                <span class="news-author">Celtic FC</span>
+                            </div>
+                            <h3 class="news-title">End of Season Awards Tickets</h3>
+                            <p class="news-excerpt">Tickets for our 2024-25 End of Season Awards will go live on sale at
+                                11am today. Date: Friday May 16th at our venue.</p>
+                            <div class="card-actions">
+                                <a href="#" class="read-more">Read More</a>
+                                <div class="article-stats">
+                                    <span class="views">👁️ 278</span>
+                                    <span class="shares">📤 15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card" data-category="community">
+                        <div class="card-header">
+                            <div class="news-image">
+                                <div class="image-placeholder">🤝</div>
+                            </div>
+                            <div class="news-category">Community</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="news-meta">
+                                <span class="news-date">May 22, 2025</span>
+                                <span class="news-author">Celtic FC</span>
+                            </div>
+                            <h3 class="news-title">New Partnership with Not Just Travel</h3>
+                            <p class="news-excerpt">We're delighted to announce a new partnership with local Not Just
+                                Travel Experts Michelle and Simon Naz for all your travel needs.</p>
+                            <div class="card-actions">
+                                <a href="#" class="read-more">Read More</a>
+                                <div class="article-stats">
+                                    <span class="views">👁️ 167</span>
+                                    <span class="shares">📤 9</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card" data-category="general">
+                        <div class="card-header">
+                            <div class="news-image">
+                                <div class="image-placeholder">🪑</div>
+                            </div>
+                            <div class="news-category">Stadium</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="news-meta">
+                                <span class="news-date">May 20, 2025</span>
+                                <span class="news-author">Celtic FC</span>
+                            </div>
+                            <h3 class="news-title">Main Stand Seating Renovations Complete</h3>
+                            <p class="news-excerpt">We are excited to share that we have completed the replacement of
+                                every seat in the Main Stand. Sponsor a seat opportunities available!</p>
+                            <div class="card-actions">
+                                <a href="#" class="read-more">Read More</a>
+                                <div class="article-stats">
+                                    <span class="views">👁️ 203</span>
+                                    <span class="shares">📤 11</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card" data-category="awards">
+                        <div class="card-header">
+                            <div class="news-image">
+                                <div class="image-placeholder">🗳️</div>
+                            </div>
+                            <div class="news-category">Awards</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="news-meta">
+                                <span class="news-date">May 18, 2025</span>
+                                <span class="news-author">Celtic FC</span>
+                            </div>
+                            <h3 class="news-title">Vote for Player of the Season</h3>
+                            <p class="news-excerpt">You can now vote for your 2024-25 Celtic Player of the Season. The
+                                winner will be revealed at our End of Season Awards ceremony.</p>
+                            <div class="card-actions">
+                                <a href="#" class="read-more">Read More</a>
+                                <div class="article-stats">
+                                    <span class="views">👁️ 521</span>
+                                    <span class="shares">📤 34</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Load More Section -->
+            <div class="load-more-section">
+                <button class="load-more-btn" id="loadMoreBtn">
+                    <span>Load More News</span>
+                    <div class="loading-spinner"></div>
+                </button>
+                <p class="news-count">Showing <span id="currentCount">8</span> of <span id="totalCount">24</span>
+                    articles</p>
+            </div>
+
+            <!-- Newsletter Signup -->
+            <div class="newsletter-section">
+                <div class="newsletter-content">
+                    <h2>Stay Updated</h2>
+                    <p>Get the latest Celtic news delivered straight to your inbox</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <p class="newsletter-disclaimer">We respect your privacy. Unsubscribe at any time.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Latest News</h3>
+                <a href="club-news.html">Club News</a>
+                <a href="#match-reports">Match Reports</a>
+                <a href="#team-news">Team News</a>
+                <a href="#transfer-news">Transfer News</a>
+            </div>
+            <div class="footer-section">
+                <h3>Club Information</h3>
+                <a href="staff-directory.html">Staff Directory</a>
+                <a href="#history">Club History</a>
+                <a href="#honours">Honours</a>
+                <a href="#facilities">Stadium Tour</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <p>Bower Fold Stadium</p>
+                <p>Mottram Road</p>
+                <p>Stalybridge SK15 2RT</p>
+                <p>Phone: 0161 338 2828</p>
+                <p>Email: club@stalycelticfc.co.uk</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <p>Stay connected with Celtic</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">📘</a>
+                    <a href="#" class="social-link">🐦</a>
+                    <a href="#" class="social-link">📷</a>
+                    <a href="#" class="social-link">▶️</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Stalybridge Celtic Football Club. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="club-news.js"></script>
+</body>
+
+</html>

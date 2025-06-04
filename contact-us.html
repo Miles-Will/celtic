@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Stalybridge Celtic FC</title>
+    <link rel="stylesheet" href="contact-us.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">SC</div>
+                <div>
+                    <h1><a href="index.html" style="color: white; text-decoration: none;">Stalybridge Celtic</a></h1>
+                    <p>Football Club</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#fixtures">Fixtures</a></li>
+                    <li><a href="index.html#results">Results</a></li>
+                    <li><a href="index.html#players">Squad</a></li>
+                    <li><a href="index.html#news">News</a></li>
+                    <li><a href="index.html#tickets">Tickets</a></li>
+                    <li><a href="visiting-us.html">Visiting Us</a></li>
+                    <li><a href="contact-us.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="breadcrumb">
+            <div class="breadcrumb-container">
+                <a href="index.html">Home</a>
+                <span>></span>
+                <span>Contact Us</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <h1>Contact Us</h1>
+        <p>Get in touch with Stalybridge Celtic FC - we're here to help</p>
+    </section>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Information Section -->
+                <div class="contact-info-section">
+                    <div class="info-card">
+                        <div class="card-icon">📍</div>
+                        <h3 class="card-title">Visit Us</h3>
+                        <div class="card-content">
+                            <p><strong>Stalybridge Celtic FC</strong></p>
+                            <p>Bower Fold Stadium</p>
+                            <p>Mottram Road</p>
+                            <p>Stalybridge, Cheshire</p>
+                            <p>SK15 2RT</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">📞</div>
+                        <h3 class="card-title">Call Us</h3>
+                        <div class="card-content">
+                            <p><strong>Main Office:</strong></p>
+                            <p><a href="tel:01613382828">0161 338 2828</a></p>
+                            <p><strong>Alternative:</strong></p>
+                            <p><a href="tel:01613388256">0161 338 8256</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">✉️</div>
+                        <h3 class="card-title">Email Us</h3>
+                        <div class="card-content">
+                            <p><strong>General Enquiries:</strong></p>
+                            <p><a href="mailto:club@stalycelticfc.co.uk">club@stalycelticfc.co.uk</a></p>
+                            <p><strong>Quick Response Time:</strong></p>
+                            <p>We aim to respond within 24 hours</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">🏢</div>
+                        <h3 class="card-title">Company Details</h3>
+                        <div class="card-content">
+                            <p><strong>Registered Company:</strong></p>
+                            <p>Stalybridge Celtic FC Ltd</p>
+                            <p><strong>Company Number:</strong></p>
+                            <p>00292254</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form Section -->
+                <div class="contact-form-section">
+                    <div class="form-container">
+                        <h2>Send Us a Message</h2>
+                        <p>Have a question or want to get involved? Fill out the form below and we'll get back to you as
+                            soon as possible.</p>
+
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Please select...</option>
+                                    <option value="general">General Enquiry</option>
+                                    <option value="tickets">Tickets & Season Passes</option>
+                                    <option value="hospitality">Hospitality & Events</option>
+                                    <option value="youth">Youth Academy</option>
+                                    <option value="media">Media & Press</option>
+                                    <option value="sponsorship">Sponsorship Opportunities</option>
+                                    <option value="accessibility">Accessibility Services</option>
+                                    <option value="complaints">Complaints</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required
+                                    placeholder="Please provide details about your enquiry..."></textarea>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <span class="checkmark"></span>
+                                    I'd like to receive news and updates from Stalybridge Celtic FC
+                                </label>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="privacy" name="privacy" required>
+                                    <span class="checkmark"></span>
+                                    I agree to the <a href="#privacy-policy">Privacy Policy</a> and Terms of Use *
+                                </label>
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                                <span>Send Message</span>
+                                <div class="loading-spinner"></div>
+                            </button>
+                        </form>
+
+                        <div class="form-success" id="successMessage">
+                            <div class="success-icon">✅</div>
+                            <h3>Message Sent Successfully!</h3>
+                            <p>Thank you for contacting us. We'll get back to you within 24 hours.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Opening Hours Section -->
+            <div class="hours-section">
+                <h2>Office Hours</h2>
+                <div class="hours-grid">
+                    <div class="hours-card">
+                        <h3>📅 Weekdays</h3>
+                        <p><strong>Monday - Friday</strong></p>
+                        <p>9:00 AM - 5:00 PM</p>
+                    </div>
+                    <div class="hours-card">
+                        <h3>⚽ Matchdays</h3>
+                        <p><strong>Home Match Days</strong></p>
+                        <p>2 hours before kick-off - 1 hour after final whistle</p>
+                    </div>
+                    <div class="hours-card">
+                        <h3>🎫 Ticket Office</h3>
+                        <p><strong>Match Days Only</strong></p>
+                        <p>Opens 90 minutes before kick-off</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Contact Section -->
+            <div class="quick-contact">
+                <h2>Need Immediate Help?</h2>
+                <div class="quick-buttons">
+                    <a href="tel:01613382828" class="quick-btn phone-btn">
+                        📞 Call Now
+                    </a>
+                    <a href="mailto:club@stalycelticfc.co.uk" class="quick-btn email-btn">
+                        ✉️ Email Us
+                    </a>
+                    <a href="visiting-us.html" class="quick-btn directions-btn">
+                        🗺️ Directions
+                    </a>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="map-section">
+                <h2>Find Bower Fold Stadium</h2>
+                <div class="map-container">
+                    <div class="map-placeholder" onclick="openGoogleMaps()">
+                        <div class="map-icon">🗺️</div>
+                        <p>Click to open in Google Maps</p>
+                        <small>Bower Fold, Mottram Road, Stalybridge SK15 2RT</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <p>Bower Fold Stadium</p>
+                <p>Mottram Road</p>
+                <p>Stalybridge SK15 2RT</p>
+                <p>Phone: 0161 338 2828</p>
+                <p>Email: club@stalycelticfc.co.uk</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Homepage</a>
+                <a href="index.html#news">Latest News</a>
+                <a href="visiting-us.html">Visiting Us</a>
+                <a href="index.html#tickets">Season Tickets</a>
+            </div>
+            <div class="footer-section">
+                <h3>Get Involved</h3>
+                <a href="#volunteering">Volunteering</a>
+                <a href="#sponsorship">Sponsorship</a>
+                <a href="#youth">Youth Academy</a>
+                <a href="#community">Community Programs</a>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <p>Stay connected with Celtic</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">📘</a>
+                    <a href="#" class="social-link">🐦</a>
+                    <a href="#" class="social-link">📷</a>
+                    <a href="#" class="social-link">▶️</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Stalybridge Celtic Football Club. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="contact-us.js"></script>
+</body>
+
+</html>
